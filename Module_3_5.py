@@ -5,7 +5,7 @@ def get_multyplied_digits (number):
         return first*get_multyplied_digits(int (str_number [1:]))
     else:
         return first
-result = get_multyplied_digits(234)
+result = get_multyplied_digits(40203)
 print (result)
 
 
