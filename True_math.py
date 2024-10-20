@@ -1,4 +1,4 @@
-def divide (first, second):
-    if second == 0:
-        return inf
-    return first/second
+def divide (a, b):
+    if b == 0:
+        raise ValueError ("Ошибка: деление на ноль")
+    return a/b

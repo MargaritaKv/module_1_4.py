@@ -1,8 +1,12 @@
 from fake_math import divide as fake_divide
-from true_math import divide as true_divide
-first_value = 10
-second_value = 0
-fake_result = fake_divide (first_value, second_value)
-true_result = true_divide (first_value, second_value)
-print ("Результат fake_math.divide:", fake_result)
-print ("Результат true_math.divide:", true_result)
+from True_math import divide as True_divide
+def run_divisions ():
+    num1 = 10
+    num2 = 0
+    result_fake = fake_divide(num1, num2)
+    try:
+        result_True = True_divide(num1, num2)
+    except ValueError as e: result_True = str (e)
+    print (f"Результат fake_divide: {result_fake}")
+    print (f"Результат True_divide: {result_True}")
+if __name__ == "__main__": run_divisions()
