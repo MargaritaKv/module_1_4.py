@@ -7,5 +7,4 @@ def string (string):
     return (len(string), string.upper(), string.lower())
 def is_contains (string, list_to_seach):
     count_calls()
-print(calls)
-
+print (count_calls())

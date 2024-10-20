@@ -14,4 +14,3 @@ send_email('Пожалуйста, исправьте задание', 'urban.stu
 send_email('Напоминаю самому себе о вебинаре', 'urban.teacher@mail.ru', sender='urban.teacher@mail.ru')
 
 
-   #if recepient!= .
